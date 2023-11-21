@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Service Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /*CSS variable*/
+        
+         :root {
+            --navbar-height: 59px;
+        }
+        /*Navigation Bar*/
+        
+        #navbar {
+            display: flex;
+            align-items: center;
+            position: relative;
+            top: 0px;
+        }
+        
+        #navbar ::before {
+            content: "";
+            background-color: black;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.7;
+        }
+        
+        #navbar ul {
+            display: flex;
+            font-family: 'Baloo Bhai', cursive;
+        }
+        
+        #navbar ul li {
+            list-style: none;
+            font-size: 1.3rem;
+        }
+        
+        #navbar ul li a {
+            color: white;
+            display: block;
+            padding: 3px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+        
+        #navbar ul li a:hover {
+            color: black;
+            background-color: white;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            color: #110f0f;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        
+        h2 {
+            color: #333;
+        }
+        
+        p {
+            line-height: 1.5;
+        }
+        
+        .service {
+            margin-bottom: 30px;
+        }
+        
+        .service img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .service h3 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Our Services</h1>
+    </header>
+
+    <div class="container">
+        <div class="service">
+            <img src="wax.jpg" alt="Service 1">
+            <h3>Waxing</h3>
+            <p>Experience smooth and hair-free skin with our professional waxing services. Our skilled estheticians use high-quality wax to remove unwanted hair from various areas of the body, including the legs, arms, bikini area, eyebrows, and more. Waxing
+                offers longer-lasting results compared to shaving and leaves your skin feeling silky and refreshed. Whether you're looking for a quick touch-up or a full-body wax, our team is dedicated to providing a comfortable and hygienic waxing experience.
+                Say goodbye to razor bumps and enjoy the benefits of perfectly smooth skin with our waxing service.</p>
+        </div>
+
+        <div class="service">
+            <img src="eyee.jpg" alt="Service 2">
+            <h3>Eyebrows</h3>
+            <p>Transform your lashes with our eyelash lifting service, also known as a lash lift. Our trained professionals use a safe and effective technique to lift and curl your natural lashes, providing you with longer-looking and more voluminous lashes.
+                Say goodbye to the hassle of eyelash curlers and mascara, and wake up to beautifully lifted lashes every day. The results are instant and can last for several weeks, giving you a low-maintenance and glamorous look. Whether you have short,
+                straight, or downward-pointing lashes, our eyelash lifting service will give you the stunning lashes you've always desired.</p>
+        </div>
+
+        <div class="service">
+            <img src="face.jpg" alt="Service 3">
+            <h3>Facial</h3>
+            <p>Indulge in the ultimate pampering experience with our rejuvenating facial service. Our skilled estheticians will assess your skin type and concerns to customize a facial treatment that addresses your specific needs. Using high-quality products
+                and techniques, our facials aim to cleanse, nourish, and revitalize your skin. Whether you're looking to hydrate dry skin, reduce signs of aging, or combat acne, our facial treatments can help improve the overall health and appearance
+                of your skin. Sit back, relax, and let our experts work their magic as they massage, exfoliate, and apply nourishing masks to leave your skin feeling refreshed, radiant, and glowing.</p>
+        </div>
+    </div>
+</body>
+
+</html>
